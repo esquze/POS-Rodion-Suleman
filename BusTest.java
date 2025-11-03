@@ -6,24 +6,25 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * The test class BusTest.
+ * Die Test-Klasse BusTest.
  *
- * @author  (your name)
- * @version (a version number or a date)
+ * @author  (Ihr Name)
+ * @version (eine Versionsnummer oder ein Datum)
  */
 public class BusTest
 {
     /**
-     * Default constructor for test class BusTest
+     * Konstruktor fuer die Test-Klasse BusTest
      */
     public BusTest()
     {
+        int x;
     }
 
     /**
-     * Sets up the test fixture.
+     *  Setzt das Testgerüst fuer den Test.
      *
-     * Called before every test case method.
+     * Wird vor jeder Testfall-Methode aufgerufen.
      */
     @BeforeEach
     public void setUp()
@@ -31,9 +32,9 @@ public class BusTest
     }
 
     /**
-     * Tears down the test fixture.
+     * Gibt das Testgerüst wieder frei.
      *
-     * Called after every test case method.
+     * Wird nach jeder Testfall-Methode aufgerufen.
      */
     @AfterEach
     public void tearDown()
